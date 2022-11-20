@@ -1,11 +1,5 @@
+const Layout = ({ children }) => {
+  return <div className="bg-gray-300">{children}</div>;
+};
 
-
-const Layout = ({children}) => {
-  return (
-    <div className="bg-gray-300">
-        {children}
-    </div>
-  )
-}
-
-export default Layout
+export default Layout;
