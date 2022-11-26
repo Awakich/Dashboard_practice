@@ -1,5 +1,5 @@
 const Layout = ({ children }) => {
-  return <div className="bg-gray-300">{children}</div>;
+  return <div className="bg-gray-300 min-h-screen">{children}</div>;
 };
 
 export default Layout;

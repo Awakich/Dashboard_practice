@@ -1,3 +1,4 @@
+import { signOut } from "next-auth/react";
 
 const SideBar = () => {
   return (
@@ -29,7 +30,13 @@ const SideBar = () => {
           </li>
 
           <li className="links">
-            <a href="#">Log out</a>
+            <button
+              className="px-4 py-2 bg-white rounded-3xl font-semibold hover:bg-gray-100"
+              onClick={() => signOut()}
+              href="#"
+            >
+              Log out
+            </button>
           </li>
         </ul>
       </div>
